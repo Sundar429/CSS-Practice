@@ -1,0 +1,113 @@
+.container {
+    border: 5px solid black;
+    padding: 10px;
+    width: 400px;
+
+}
+
+.box {
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+}
+/* .box:nth-child(2){
+    flex-shrink: 2;
+
+} */
+
+/* .box:nth-child(2){
+    flex-grow: 2;
+
+} */
+
+.box:nth-of-type(odd) {
+    background-color: teal;
+    color: white;
+}
+
+.box:nth-of-type(even) {
+    background-color: green;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+    /* align-items: flex-start; */
+
+
+    /*align-content */
+
+
+    /*
+        align-content: flex-start; 
+        align-content: flex-end;
+           align-content: space-between;
+           align-content: space-around;
+     */
+
+    /*justify-content */
+
+
+    /*  justify-content: center; 
+    justify-content: flex-end; 
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;s*/
+
+
+    /*flex-wrap &  flex-direction */
+
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+    /* 
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+
+}
+
+/* Order */
+
+/* .box:nth-child(1){
+    order: 5;
+}
+.box:nth-child(2){
+    order: 1;
+}
+.box:nth-child(3){
+    order: 2;
+
+}
+.box:nth-child(4){
+    order: 3;
+
+}
+.box:nth-child(5){
+    order: 4;
+
+} */
+
+/* Align Self */
+
+/* .box:nth-child(1){
+   align-self: stretch;
+}
+.box:nth-child(3){
+  align-self: flex-end;
+}
+.box:nth-child(2){
+    align-self: center;
+}
+.box:nth-child(4){
+    align-self: flex-start;
+
+} */

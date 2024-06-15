@@ -1,0 +1,21 @@
+a{
+    display:inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+
+    text-decoration: none;
+}
+a:link{
+    color: yellow;
+}
+a:hover{
+    background-color: teal;
+    color: goldenrod;
+}
+a:active{
+    color:blueviolet;
+}
+a:visited{
+    color:crimson;
+}

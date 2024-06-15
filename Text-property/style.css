@@ -1,0 +1,20 @@
+#letter-spacing{
+    letter-spacing: 10px;
+
+}
+#word-spacing{
+    word-spacing: 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+#Text-decorartion{
+    text-decoration:underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    line-height: 150px;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    
+}

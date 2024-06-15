@@ -1,0 +1,15 @@
+div{
+    border: 5px solid black;
+    padding: 10px;
+    column-count: 3;
+    column-width: 150px;
+    column-gap: 50px;
+    column-rule-width: 5px;
+    column-rule-style: dotted;
+    column-rule-color: blue;
+    column-rule: 5px solid black;
+}
+h1{
+    column-span: none;
+    column-span: all;
+}

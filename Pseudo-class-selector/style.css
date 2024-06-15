@@ -1,0 +1,89 @@
+/* li:nth-child(2n+1){
+    color: brown;
+    font-weight: bold;
+} */
+/* li:nth-child(2n){
+    color: brown;
+    font-weight: bold;
+} */
+
+/* li:nth-child(3n){
+    color: brown;
+    font-weight: bold;
+} */
+
+/* li:nth-child(3n-1){
+    color: brown;
+    font-weight: bold;
+} */
+/* 
+.l1 li:nth-last-child(3){
+    font-weight: bold;
+    color: red;
+
+} */
+
+/* p:nth-of-type(2){
+    color: brown;
+    font-size: 20px;
+}
+p:nth-last-of-type(1){
+    color: greenyellow;
+    font-size: 20px;
+} */
+/* li:nth-of-type(1){
+    color: brown;
+    font-size: 20px;
+}
+li:nth-last-of-type(1){
+    color: blue;
+    font-size: 20px;
+}
+li:only-child{
+    color: crimson;
+    font-size: 30px;
+} */
+/* 
+h4:only-of-type{
+    color: aqua;
+    font-size: 25px;
+} */
+
+/* li:first-of-type{
+    font-weight: bold;
+    color: teal;
+}
+
+p:first-of-type{
+    font-size: 20px;
+    color:red;
+}
+
+p:last-of-type{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+p:empty{
+    padding: 10px;
+    border: 2px solid blue;
+} */
+
+p:lang(fr){
+    font-size: 30px;
+    font-weight: bold;
+    color:chocolate ;
+}
+/* p:lang(en){
+    font-size: 30px;
+    font-weight: bold;
+    color:crimson ;
+} */
+p{
+    padding: 10px;
+    background-color: aliceblue;
+}
+p:target{
+    background-color: aquamarine;
+    color: blue;
+}

@@ -1,0 +1,39 @@
+.table{
+    display: table;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+.row{
+    display: table-row;
+}
+.col{
+    display: table-cell;
+    border: 1px solid orangered;
+    padding: 10px 30px;
+    
+}
+.header{
+    display: table-header-group;
+    font-weight: bold;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+.caption{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.col-group{
+    display: table-column-group;
+}
+.table-col{
+    display: table-column;
+}
+.col2{
+    width: 100px;
+    background-color: yellow;
+}

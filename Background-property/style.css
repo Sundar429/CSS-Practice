@@ -1,0 +1,138 @@
+/* h1{
+    color:blue;
+}
+body{
+    background: teal;
+    background-image: url(materialsupply.jpg);
+    
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+    background-position:  center top;
+
+} */
+
+div{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background:teal url(cut-machine.jpg)no-repeat  ;
+    background-size: cover;
+    background-size: 100px;
+    background-size: auto;
+    background-size: 100% 100%;
+   
+    background-size: contain;
+    background-size: cover;
+    border: 2px solid black;
+
+}
+#background-attachment{
+    background: blue url(materialsupply.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#background-orgin{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border: 10px dashed black;
+    background: blue url(cut-machine.jpg) no-repeat ;
+    background-size: 300px;
+    background-origin: padding-box;
+    background-origin: content-box;
+    background-origin: border-box;
+    
+}
+#background-clip{
+    width: 800px;
+    height: 400px;
+    /* background: red url(materialsupply.jpg)  ; */
+    background-repeat: no-repeat;
+    font-family: Impact;
+    text-align: center;
+    color: transparent;
+    background-size: 800px 400px;
+    line-height: 450px;
+    font-size: 50px;
+    background-image: linear-gradient(blue,orange,red);
+    -webkit-background-clip: text;
+
+}
+.linear-gradient{
+    width: 200px;
+    height: 200px;
+   
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.first{
+    background: linear-gradient(red,green);
+
+}
+
+.second{
+    background: linear-gradient(to left, blue,green);
+
+}
+
+.third{
+    background: linear-gradient(to right, orange,brown);
+
+}
+
+.fourth{
+    background: linear-gradient(to bottom right, blue,green);
+
+}
+
+.fifth{
+    background: linear-gradient(to top left, orange,brown);
+
+}
+
+.sixth{
+    background: linear-gradient(45deg, green,brown);
+
+}
+.seventh{
+    background: repeating-linear-gradient(to left,#741a1a,rgb(59, 153, 59) 10%,rgb(163, 163, 77)15%);
+
+
+}
+#linear-gradient-function{
+    border: 5px solid black;
+    width: 80vw;
+    display: flex;
+   
+}
+.eight {
+    /* background:radial-gradient(circle,green,red,yellow); */
+    background:radial-gradient(closest-side at 50% 50%,green,red,yellow);
+    background:repeating-radial-gradient(green ,red 10%,yellow 15%);
+}
+#background-blend{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: linear-gradient(red,green,blue),url(cut-machine.jpg) ;
+    background-size: cover;
+    background-blend-mode: normal;
+    background-blend-mode: screen;
+    background-blend-mode: overlay;
+    background-blend-mode: darken;
+    background-blend-mode: hard-light;
+    background-blend-mode: soft-light;
+    background-blend-mode: multiply;
+    background-blend-mode: color-burn;
+    background-blend-mode: difference;
+    background-blend-mode: exclusion;
+    background-blend-mode: hue;
+
+    
+
+}

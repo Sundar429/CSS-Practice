@@ -1,0 +1,22 @@
+/* 
+1)static
+2)relative
+3)absolute
+4)fixed
+5)sticky
+
+*/
+.main{
+    position: relative;
+    top: 60px;
+}
+
+.box1{
+    position: absolute;
+    bottom:0;
+}
+.box2{
+    position: fixed;
+    right: 800px;
+    top: 400px;
+}

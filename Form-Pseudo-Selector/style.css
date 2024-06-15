@@ -1,0 +1,17 @@
+#t1:focus{
+    outline: none;
+    border: 2px solid red;
+}
+input[type="Checkbox"]:checked{
+    box-shadow: 0 0 0 3px red;
+}
+input[type="text"]:enabled{
+   background-color: chartreuse;
+}
+input[type="text"]:disabled{
+  background-color: red;
+}
+input[type="text"]:required{
+    background-color: blue;
+ }
+ 

@@ -1,0 +1,62 @@
+/* Universal Selector */
+
+*{
+    background-color: aqua;
+}
+/* Element Selector */
+
+h2{
+    color: blueviolet;
+}
+
+/* Grouping Selector */
+
+h1,.para{
+    background-color: blue;
+}
+
+/* class Selector */
+
+.outer{
+    border: 3px solid black;
+}
+
+/* ID Selector */
+#para2{
+    color:blue;
+}
+
+/*Combinator Selector
+  i)Descendant Selector
+*/
+
+.outer p{
+    background-color: chartreuse;
+}
+
+/* ii)Child  Selector */
+.inner>p{
+    background-color: tomato;
+}
+/* iii)Adjacent  Selector */
+.outer+p{
+    background-color: teal;
+}
+/* iv)General sibling  Selector */
+.outer~p{
+    background-color: sienna;
+}
+
+/* Attribute Selector */
+div[class="outer2"]{
+    color:tomato;
+}
+a[title="Link1"]{
+    color:firebrick;
+}
+a[title="Link2"]{
+    color:coral;
+}
+a[title="Link3"]{
+    color:gold;
+}
